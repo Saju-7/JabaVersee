@@ -4,13 +4,13 @@ import styled from "styled-components";
 import ProjectBox from "../Elements/ProjectBox";
 import FullButton from "../Buttons/FullButton";
 // Assets
-import ProjectImg1 from "../../assets/img/projects/1.png";
-import ProjectImg2 from "../../assets/img/projects/2.png";
-import ProjectImg3 from "../../assets/img/projects/3.png";
-import ProjectImg4 from "../../assets/img/projects/4.png";
-import ProjectImg5 from "../../assets/img/projects/5.png";
-import ProjectImg6 from "../../assets/img/projects/6.png";
-import AddImage2 from "../../assets/img/add/add2.png";
+import ProjectImg1 from "../../assets/img/portfolio/p7.jpg";
+import ProjectImg2 from "../../assets/img/portfolio/p4.jpg";
+import ProjectImg3 from "../../assets/img/portfolio/p1.jpg";
+import ProjectImg4 from "../../assets/img/portfolio/p6.jpg";
+import ProjectImg5 from "../../assets/img/portfolio/p5.jpg";
+import ProjectImg6 from "../../assets/img/portfolio/p2.jpg";
+import AddImage2 from "../../assets/img/new/2.jpg";
 
 export default function Portfolio() {
   return (
@@ -30,6 +30,7 @@ export default function Portfolio() {
                 title="E-Commerce Redesign"
                 text="Revamping an e-commerce platform to boost sales and improve user experience."
                 action={() => alert("Learn More")}
+                style={{ width: '376px', height: '309px', zIndex: 9 }} 
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
@@ -38,6 +39,7 @@ export default function Portfolio() {
                 title="Digital Marketing Campaign"
                 text="An integrated digital marketing campaign for a global brand."
                 action={() => alert("Learn More")}
+                style={{ width: '376px', height: '309px', zIndex: 9 }} 
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
@@ -46,6 +48,7 @@ export default function Portfolio() {
                 title="Brand Identity Creation"
                 text="Designing a fresh and compelling brand identity for a startup."
                 action={() => alert("Learn More")}
+                style={{ width: '376px', height: '309px', zIndex: 9 }} 
               />
             </div>
           </div>
@@ -56,6 +59,7 @@ export default function Portfolio() {
                 title="SEO Optimization"
                 text="Optimizing a website’s search rankings and driving organic traffic."
                 action={() => alert("Learn More")}
+                style={{ width: '376px', height: '309px', zIndex: 9 }} 
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
@@ -64,6 +68,7 @@ export default function Portfolio() {
                 title="Content Strategy"
                 text="Developing and executing content strategies for long-term engagement."
                 action={() => alert("Learn More")}
+                style={{ width: '376px', height: '309px', zIndex: 9 }} 
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
@@ -72,6 +77,7 @@ export default function Portfolio() {
                 title="Custom Web Development"
                 text="Building a custom web solution for a client’s specific needs."
                 action={() => alert("Learn More")}
+                style={{ width: '376px', height: '309px', zIndex: 9 }} 
               />
             </div>
           </div>
@@ -88,7 +94,7 @@ export default function Portfolio() {
             <AddLeft>
               <AddLeftInner>
                 <ImgWrapper className="flexCenter">
-                  <img className="radius8" src={AddImage2} alt="add" />
+                  <img className="radius8" src={AddImage2} alt="add"   style={{ width: '426px', height: '607px', zIndex: 9 }}   />
                 </ImgWrapper>
               </AddLeftInner>
             </AddLeft>

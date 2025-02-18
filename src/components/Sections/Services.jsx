@@ -5,10 +5,10 @@ import ClientSlider from "../Elements/ClientSlider";
 import ServiceBox from "../Elements/ServiceBox";
 import FullButton from "../Buttons/FullButton";
 // Assets
-import AddImage1 from "../../assets/img/add/1.png";
-import AddImage2 from "../../assets/img/add/2.png";
-import AddImage3 from "../../assets/img/add/3.png";
-import AddImage4 from "../../assets/img/add/4.png";
+import AddImage1 from "../../assets/img/new/3.jpg";
+import AddImage2 from "../../assets/img/new/4.jpg";
+import AddImage3 from "../../assets/img/new/1.jpg";
+import AddImage4 from "../../assets/img/new/2.jpg";
 
 export default function Services() {
   return (
@@ -98,18 +98,18 @@ export default function Services() {
                 <AddRightInner>
                   <div className="flexNullCenter">
                     <AddImgWrapp1 className="flexCenter">
-                      <img src={AddImage1} alt="office" />
+                      <img src={AddImage1} alt="office"  style={{ width: '285px', height: '406px', zIndex: 9 }} />
                     </AddImgWrapp1>
                     <AddImgWrapp2>
-                      <img src={AddImage2} alt="office" />
+                      <img src={AddImage2} alt="office"  style={{ width: '197px', height: '333px', zIndex: 9 }}/>
                     </AddImgWrapp2>
                   </div>
                   <div className="flexNullCenter">
                     <AddImgWrapp3>
-                      <img src={AddImage3} alt="office" />
+                      <img src={AddImage3} alt="office"  style={{ width: '112px', height: '125px', zIndex: 9 }}/>
                     </AddImgWrapp3>
                     <AddImgWrapp4>
-                      <img src={AddImage4} alt="office" />
+                      <img src={AddImage4} alt="office"  style={{ width: '197px', height: '224px', zIndex: 9 }}/>
                     </AddImgWrapp4>
                   </div>
                 </AddRightInner>

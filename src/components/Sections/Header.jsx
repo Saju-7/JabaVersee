@@ -1,9 +1,9 @@
-import React from "react";
+
 import styled from "styled-components";
 // Components
 import FullButton from "../Buttons/FullButton";
 // Assets
-import HeaderImage from "../../assets/img/header-img.png";  // Replace with your relevant image for Jaba Verse
+import HeaderImage from "../../assets/img/new/6.jpg";  // Replace with your relevant image for Jaba Verse
 import QuotesIcon from "../../assets/svg/Quotes";
 import Dots from "../../assets/svg/Dots";
 
@@ -23,7 +23,13 @@ export default function Header() {
       </LeftSide>
       <RightSide>
         <ImageWrapper>
-          <Img className="radius8" src={HeaderImage} alt="Jaba Verse Office" style={{ zIndex: 9 }} />
+        <Img
+  className="radius8"
+  src={HeaderImage}
+  alt="Jaba Verse Office"
+  style={{ width: '426px', height: '607px', zIndex: 9 }}
+/>
+
           <QuoteWrapper className="flexCenter darkBg radius8">
             <QuotesWrapper>
               <QuotesIcon />

@@ -6,6 +6,7 @@ import MonitorIcon from "../../assets/svg/Services/MonitorIcon";
 import BrowserIcon from "../../assets/svg/Services/BrowserIcon";
 import PrinterIcon from "../../assets/svg/Services/PrinterIcon";
 
+// eslint-disable-next-line react/prop-types
 export default function ServiceBox({icon, title, subtitle}) {
   let getIcon;
 

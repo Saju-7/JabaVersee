@@ -3,7 +3,7 @@ import styled from "styled-components";
 // Components
 import FullButton from "../Buttons/FullButton";
 // Assets (make sure to replace the path with the actual image)
-import TeamImage from "../../assets/img/contact-1.png";  // Replace with the actual path to the image
+import TeamImage from "../../assets/img/portfolio/p8.jpg";  // Replace with the actual path to the image
 
 
 export default function About() {
@@ -21,7 +21,7 @@ export default function About() {
           {/* Image and Text Section */}
           <ContentWrapper className="flexSpaceCenter">
             <ImageSection>
-              <img src={TeamImage} alt="Jaba Verse Team" />
+              <img src={TeamImage} alt="Jaba Verse Team"  style={{ width: '440px', height: '520px', zIndex: 9 }}  />
             </ImageSection>
             <TextSection>
               <h3 className="font24 extraBold">Our Mission</h3>

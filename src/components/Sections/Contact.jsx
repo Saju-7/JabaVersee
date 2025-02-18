@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 // Assets
-import ContactImg1 from "../../assets/img/contact-1.png";
-import ContactImg2 from "../../assets/img/contact-2.png";
-import ContactImg3 from "../../assets/img/contact-3.png";
+import ContactImg1 from "../../assets/img/contact/c1.jpg";
+import ContactImg2 from "../../assets/img/contact/c2.jpg";
+import ContactImg3 from "../../assets/img/contact/c4.jpg";
 
 export default function Contact() {
   return (
@@ -38,15 +38,15 @@ export default function Contact() {
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex">
               <div style={{ width: "50%" }} className="flexNullCenter flexColumn">
                 <ContactImgBox>
-                  <img src={ContactImg1} alt="office" className="radius8" />
+                  <img src={ContactImg1} alt="office" className="radius8" style={{ width: '180px', height: '204px', zIndex: 9 }}  />
                 </ContactImgBox>
                 <ContactImgBox>
-                  <img src={ContactImg2} alt="office" className="radius8" />
+                  <img src={ContactImg2} alt="office" className="radius8"  style={{ width: '180px', height: '295px', zIndex: 9 }}/>
                 </ContactImgBox>
               </div>
               <div style={{ width: "50%" }}>
                 <div style={{ marginTop: "100px" }}>
-                  <img src={ContactImg3} alt="office" className="radius8" />
+                  <img src={ContactImg3} alt="office" className="radius8" style={{ width: '278px', height: '330px', zIndex: 9 }} />
                 </div>
               </div>
             </div>
