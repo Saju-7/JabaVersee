@@ -30,19 +30,11 @@ export default function Services() {
             {/* Web Development Section */}
             <ServiceBoxWrapper>
               <ServiceBox
-                icon="browser"
-                title="Web Development "
+                icon="pen"
+                title="Web Development"
                 subtitle="We specialize in affordable and scalable web development solutions for small businesses. Our approach focuses on creating responsive websites that deliver a great user experience."
               />
-              <SuccessStory>
-                <h3 className="font18">Success Story</h3>
-                <p className="font12">
-                  One of our clients, a small local bakery, saw a 40% increase in online orders after we developed their custom website with e-commerce integration. 
-                  <a href="/portfolio#case-study-1" target="_blank">Read the full case study</a>.
-                </p>
-              </SuccessStory>
               <CTASection>
-             
                 <FullButton title="Schedule a Consultation" action={() => alert("consultation scheduled")} border />
               </CTASection>
             </ServiceBoxWrapper>
@@ -54,13 +46,6 @@ export default function Services() {
                 title="Digital Marketing"
                 subtitle="Boost your online presence with tailored digital marketing strategies. We offer SEO, PPC, content marketing, and social media services to help your business reach its target audience."
               />
-              <SuccessStory>
-                <h3 className="font18">Success Story</h3>
-                <p className="font12">
-                  After launching a comprehensive SEO strategy for a local law firm, we helped them rank #1 on Google for key search terms, bringing in over 150% more client inquiries. 
-                  <a href="/portfolio#case-study-2" target="_blank">Read the full case study</a>.
-                </p>
-              </SuccessStory>
               <CTASection>
                 <FullButton title="Schedule a Consultation" action={() => alert("consultation scheduled")} border />
               </CTASection>
@@ -73,13 +58,6 @@ export default function Services() {
                 title="Content Writing"
                 subtitle="Engage your audience with expertly written content. Whether it's blog posts, articles, or product descriptions, we offer affordable content writing services that help boost your SEO."
               />
-              <SuccessStory>
-                <h3 className="font18">Success Story</h3>
-                <p className="font12">
-                  A client in the e-commerce sector saw a 50% increase in organic traffic after we revamped their product descriptions and created blog posts optimized for SEO. 
-                  <a href="/portfolio#case-study-3" target="_blank">Read the full case study</a>.
-                </p>
-              </SuccessStory>
               <CTASection>
                 <FullButton title="Schedule a Consultation" action={() => alert("consultation scheduled")} border />
               </CTASection>
@@ -88,19 +66,11 @@ export default function Services() {
             {/* Graphic Design Section */}
             <ServiceBoxWrapper>
               <ServiceBox
-                icon="paint-brush"
+                icon="roller"
                 title="Graphic Design"
                 subtitle="Our graphic design team creates visually stunning and brand-appropriate designs that capture your audience’s attention. We offer everything from logos to social media assets at affordable rates."
               />
-              <SuccessStory>
-                <h3 className="font18">Success Story</h3>
-                <p className="font12">
-                  We helped a tech startup design a modern logo and branding materials, which contributed to a successful product launch and recognition in the industry. 
-                  <a href="/portfolio#case-study-4" target="_blank">Read the full case study</a>.
-                </p>
-              </SuccessStory>
               <CTASection>
-  
                 <FullButton title="Schedule a Consultation" action={() => alert("consultation scheduled")} border />
               </CTASection>
             </ServiceBoxWrapper>
@@ -176,17 +146,6 @@ const ServiceBoxWrapper = styled.div`
 const HeaderInfo = styled.div`
   @media (max-width: 860px) {
     text-align: center;
-  }
-`;
-
-const SuccessStory = styled.div`
-  margin-top: 40px;
-  p {
-    margin: 10px 0;
-  }
-  a {
-    color: #007bff;
-    text-decoration: none;
   }
 `;
 
@@ -299,4 +258,3 @@ const AddImgWrapp4 = styled.div`
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
   }
 `;
-
