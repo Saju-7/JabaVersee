@@ -30,7 +30,7 @@ export default function Portfolio() {
                 title="E-Commerce Redesign"
                 text="Revamping an e-commerce platform to boost sales and improve user experience."
                 action={() => alert("Learn More")}
-                style={{ width: '336px', height: '309px', zIndex: 9 }} 
+                style={{ width: '100%', height: '309px', zIndex: 9 }} 
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
@@ -39,7 +39,7 @@ export default function Portfolio() {
                 title="Digital Marketing Campaign"
                 text="An integrated digital marketing campaign for a global brand."
                 action={() => alert("Learn More")}
-                style={{ width: '336px', height: '309px', zIndex: 9 }} 
+                style={{ width: '100%', height: '309px', zIndex: 9 }} 
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
@@ -48,7 +48,7 @@ export default function Portfolio() {
                 title="Brand Identity Creation"
                 text="Designing a fresh and compelling brand identity for a startup."
                 action={() => alert("Learn More")}
-                style={{ width: '336px', height: '309px', zIndex: 9 }} 
+                style={{ width: '100%', height: '309px', zIndex: 9 }} 
               />
             </div>
           </div>
@@ -59,7 +59,7 @@ export default function Portfolio() {
                 title="SEO Optimization"
                 text="Optimizing a website’s search rankings and driving organic traffic."
                 action={() => alert("Learn More")}
-                style={{ width: '336px', height: '309px', zIndex: 9 }} 
+                style={{ width: '100%', height: '309px', zIndex: 9 }} 
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
@@ -68,7 +68,7 @@ export default function Portfolio() {
                 title="Content Strategy"
                 text="Developing and executing content strategies for long-term engagement."
                 action={() => alert("Learn More")}
-                style={{ width: '336px', height: '309px', zIndex: 9 }} 
+                style={{ width: '100%', height: '309px', zIndex: 9 }} 
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
@@ -77,7 +77,7 @@ export default function Portfolio() {
                 title="Custom Web Development"
                 text="Building a custom web solution for a client’s specific needs."
                 action={() => alert("Learn More")}
-                style={{ width: '336px', height: '309px', zIndex: 9 }} 
+                style={{ width: '100%', height: '309px', zIndex: 9 }} 
               />
             </div>
           </div>
@@ -94,7 +94,7 @@ export default function Portfolio() {
             <AddLeft>
               <AddLeftInner>
                 <ImgWrapper className="flexCenter">
-                  <img className="radius8" src={AddImage2} alt="add"   style={{ width: '320px', height: '500px', zIndex: 9 }}   />
+                  <img className="radius8" src={AddImage2} alt="add"   style={{ width: '100%', height: '600px', zIndex: 9 }}   />
                 </ImgWrapper>
               </AddLeftInner>
             </AddLeft>

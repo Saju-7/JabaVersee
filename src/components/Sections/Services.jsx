@@ -98,18 +98,18 @@ export default function Services() {
                 <AddRightInner>
                   <div className="flexNullCenter">
                     <AddImgWrapp1 className="flexCenter">
-                      <img src={AddImage1} alt="office"  style={{ width: '285px', height: '406px', zIndex: 9 }} />
+                      <img src={AddImage1} alt="office"  style={{ width: '100%', height: '406px', zIndex: 9 }} />
                     </AddImgWrapp1>
                     <AddImgWrapp2>
-                      <img src={AddImage2} alt="office"  style={{ width: '197px', height: '333px', zIndex: 9 }}/>
+                      <img src={AddImage2} alt="office"  style={{ width: '100%', height: '333px', zIndex: 9 }}/>
                     </AddImgWrapp2>
                   </div>
                   <div className="flexNullCenter">
                     <AddImgWrapp3>
-                      <img src={AddImage3} alt="office"  style={{ width: '112px', height: '125px', zIndex: 9 }}/>
+                      <img src={AddImage3} alt="office"  style={{ width: '100%', height: '125px', zIndex: 9 }}/>
                     </AddImgWrapp3>
                     <AddImgWrapp4>
-                      <img src={AddImage4} alt="office"  style={{ width: '177px', height: '224px', zIndex: 9 }}/>
+                      <img src={AddImage4} alt="office"  style={{ width: '100%', height: '224px', zIndex: 9 }}/>
                     </AddImgWrapp4>
                   </div>
                 </AddRightInner>

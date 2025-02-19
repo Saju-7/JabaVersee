@@ -27,7 +27,7 @@ export default function Header() {
   className="radius8"
   src={HeaderImage}
   alt="Jaba Verse Office"
-  style={{ width: '328px', height: '607px', zIndex: 9 }}
+  style={{ width: '100%', height: 'auto', zIndex: 9 }}
 />
 
           <QuoteWrapper className="flexCenter darkBg radius8">
