@@ -27,7 +27,7 @@ export default function Header() {
   className="radius8"
   src={HeaderImage}
   alt="Jaba Verse Office"
-  style={{ width: '426px', height: '607px', zIndex: 9 }}
+  style={{ width: '326px', height: '607px', zIndex: 9 }}
 />
 
           <QuoteWrapper className="flexCenter darkBg radius8">
@@ -126,11 +126,17 @@ const ImageWrapper = styled.div`
 `;
 
 const Img = styled.img`
+  @media (max-width: 960px) {
+    width: 30%;  /* Set the width to 70% of the container */
+    height: auto;  /* Maintain aspect ratio */
+  }
+
   @media (max-width: 560px) {
-    width: 80%;
-    height: auto;
+    width: 305px;  /* Set the width to 80% of the container on even smaller screens */
+    height: auto;  /* Keep the aspect ratio intact */
   }
 `;
+
 
 const QuoteWrapper = styled.div`
   position: absolute;
