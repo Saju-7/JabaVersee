@@ -44,11 +44,16 @@ export default function Contact() {
                   <img src={ContactImg2} alt="office" className="radius8"  style={{ width: '180px', height: '295px', zIndex: 9 }}/>
                 </ContactImgBox>
               </div>
-              <div style={{ width: "50%" }}>
-                <div style={{ marginTop: "100px" }}>
-                  <img src={ContactImg3} alt="office" className="radius8" style={{ width: '278px', height: '330px', zIndex: 9 }} />
-                </div>
+              <div className="row" style={{ paddingBottom: "30px" }}>
+            <div style={{ width: "50%" }}>
+              <div style={{ marginTop: "50px" }}>
+                <Radius9Image
+                  src={ContactImg3}
+                  alt="office"
+                />
               </div>
+            </div>
+          </div>
             </div>
           </div>
         </div>
@@ -134,6 +139,19 @@ const ContactImgBox = styled.div`
     width: 100%;
     border-radius: 8px;
     object-fit: cover;
+  }
+`;
+const Radius9Image = styled.img`
+  width: 278px;
+  height: 330px;
+  z-index: 9;
+  border-radius: 9px;
+  object-fit: cover;
+  transition: all 0.3s ease;
+
+  @media (max-width: 860px) {
+    width: 180px;
+    height: 220px;
   }
 `;
 

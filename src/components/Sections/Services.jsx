@@ -109,7 +109,7 @@ export default function Services() {
                       <img src={AddImage3} alt="office"  style={{ width: '112px', height: '125px', zIndex: 9 }}/>
                     </AddImgWrapp3>
                     <AddImgWrapp4>
-                      <img src={AddImage4} alt="office"  style={{ width: '197px', height: '224px', zIndex: 9 }}/>
+                      <img src={AddImage4} alt="office"  style={{ width: '177px', height: '224px', zIndex: 9 }}/>
                     </AddImgWrapp4>
                   </div>
                 </AddRightInner>
@@ -220,9 +220,13 @@ const AddImgWrapp1 = styled.div`
   margin: 0 6% 10px 6%;
   img {
     width: 100%;
-    height: auto;
+    height: auto; /* Maintain aspect ratio */
     border-radius: 1rem;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+  }
+  @media (max-width: 860px) {
+    width: 40%;  /* Full width on smaller screens */
+    margin: 0 0 15px 0;
   }
 `;
 
@@ -235,6 +239,10 @@ const AddImgWrapp2 = styled.div`
     border-radius: 1rem;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
   }
+  @media (max-width: 860px) {
+    width: 48%;  /* Adjust width for smaller screens */
+    margin: 0 0 15px 0;
+  }
 `;
 
 const AddImgWrapp3 = styled.div`
@@ -246,6 +254,11 @@ const AddImgWrapp3 = styled.div`
     border-radius: 1rem;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
   }
+  @media (max-width: 860px) {
+    width: 48%;  /* Adjust width for smaller screens */
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
 `;
 
 const AddImgWrapp4 = styled.div`
@@ -256,5 +269,9 @@ const AddImgWrapp4 = styled.div`
     height: auto;
     border-radius: 1rem;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+  }
+  @media (max-width: 860px) {
+    width: 48%;  /* Adjust width for smaller screens */
+    margin: 0 0 15px 0;
   }
 `;

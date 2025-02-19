@@ -83,12 +83,12 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px" }}
-            to="pricing"
+            to="about"
             spy={true}
             smooth={true}
             offset={-60}
           >
-            Pricing
+            About
           </Link>
         </li>
         <li className="semiBold font15 pointer">
@@ -132,8 +132,10 @@ const Wrapper = styled.nav`
   z-index: 9999;
   @media (max-width: 400px) {
     width: 100%;
+    right: ${(props) => (props.sidebarOpen ? "0px" : "-100%")}; /* Change to "-100%" to hide sidebar completely */
   }
 `;
+
 const SidebarHeader = styled.div`
   padding: 20px 0;
 `;

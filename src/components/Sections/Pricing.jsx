@@ -21,7 +21,7 @@ export default function About() {
           {/* Image and Text Section */}
           <ContentWrapper className="flexSpaceCenter">
             <ImageSection>
-              <img src={TeamImage} alt="Jaba Verse Team"  style={{ width: '440px', height: '520px', zIndex: 9 }}  />
+              <img src={TeamImage} alt="Jaba Verse Team"  style={{ width: '350px', height: '520px', zIndex: 9 }}  />
             </ImageSection>
             <TextSection>
               <h3 className="font24 extraBold">Our Mission</h3>
@@ -98,10 +98,15 @@ const ImageSection = styled.div`
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   @media (max-width: 860px) {
-    width: 80%;
+    width: 60%; /* Decrease the width on smaller screens */
     margin-bottom: 30px;
   }
+  @media (max-width: 480px) {
+    width: 90%; /* Full width for even smaller screens */
+    height: auto;
+  }
 `;
+
 
 const TextSection = styled.div`
   width: 50%;
