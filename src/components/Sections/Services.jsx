@@ -96,7 +96,7 @@ export default function Services() {
               </AddLeft>
               <AddRight>
                 <AddRightInner>
-                  <div className="flexNullCenter">
+                  <div className="flexNullCenter" style={{justifyContent:'space-between'}}>
                     <AddImgWrapp1 className="flexCenter">
                       <img src={AddImage1} alt="office"  style={{ width: '100%', height: '406px', zIndex: 9 }} />
                     </AddImgWrapp1>
@@ -104,7 +104,7 @@ export default function Services() {
                       <img src={AddImage2} alt="office"  style={{ width: '100%', height: '333px', zIndex: 9 }}/>
                     </AddImgWrapp2>
                   </div>
-                  <div className="flexNullCenter">
+                  <div className="flexNullCenter" style={{justifyContent:'space-between'}}>
                     <AddImgWrapp3>
                       <img src={AddImage3} alt="office"  style={{ width: '100%', height: '125px', zIndex: 9 }}/>
                     </AddImgWrapp3>
@@ -204,7 +204,7 @@ const AddRight = styled.div`
   top: -70px;
   right: 0;
   @media (max-width: 860px) {
-    width: 80%;
+    width: 100%;
     position: relative;
     order: 1;
     top: -40px;
@@ -224,9 +224,13 @@ const AddImgWrapp1 = styled.div`
     border-radius: 1rem;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
   }
-  @media (max-width: 860px) {
+  @media (max-width: 760px) {
     width: 40%;  /* Full width on smaller screens */
     margin: 0 0 15px 0;
+    img {
+    width: 100px !important;
+    height:200px !important;
+  }
   }
 `;
 
@@ -242,6 +246,10 @@ const AddImgWrapp2 = styled.div`
   @media (max-width: 860px) {
     width: 48%;  /* Adjust width for smaller screens */
     margin: 0 0 15px 0;
+  }
+       img {
+    width: 150px !important;
+    height:250px !important;
   }
 `;
 
@@ -259,6 +267,11 @@ const AddImgWrapp3 = styled.div`
     margin-left: 0;
     margin-bottom: 15px;
   }
+       img {
+    width: 150px !important;
+    height:250px !important;
+     margin-left: 18px !important;
+  }
 `;
 
 const AddImgWrapp4 = styled.div`
@@ -273,5 +286,10 @@ const AddImgWrapp4 = styled.div`
   @media (max-width: 860px) {
     width: 48%;  /* Adjust width for smaller screens */
     margin: 0 0 15px 0;
+  }
+       img {
+    width: 100px !important;
+    height:200px !important;
+        margin-left: 45px !important;
   }
 `;

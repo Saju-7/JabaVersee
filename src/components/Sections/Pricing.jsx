@@ -21,7 +21,7 @@ export default function About() {
           {/* Image and Text Section */}
           <ContentWrapper className="flexSpaceCenter">
             <ImageSection>
-              <img src={TeamImage} alt="Jaba Verse Team"  style={{ width: '300px', height: '500px', zIndex: 9 }}  />
+              <img src={TeamImage} alt="Jaba Verse Team"   />
             </ImageSection>
             <TextSection>
               <h3 className="font24 extraBold">Our Mission</h3>
@@ -57,7 +57,7 @@ export default function About() {
           {/* Call to Action Section */}
           <div className="row flexCenter">
             <div style={{ margin: "50px 0", width: "200px" }}>
-              <FullButton title="Get to Know Us Better" action={() => alert("clicked")} />
+              <FullButton title="Get Know" action={() => alert("clicked")} />
             </div>
           </div>
         </div>
@@ -102,6 +102,9 @@ const ImageSection = styled.div`
     margin-bottom: 30px;
   }
   @media (max-width: 480px) {
+  img{
+     height:300px !important;
+  }
     width: 90%; /* Full width for even smaller screens */
     height: auto;
   }

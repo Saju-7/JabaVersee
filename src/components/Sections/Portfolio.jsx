@@ -10,7 +10,7 @@ import ProjectImg3 from "../../assets/img/portfolio/p1.jpg";
 import ProjectImg4 from "../../assets/img/portfolio/p6.jpg";
 import ProjectImg5 from "../../assets/img/portfolio/p5.jpg";
 import ProjectImg6 from "../../assets/img/portfolio/p2.jpg";
-import AddImage2 from "../../assets/img/new/2.jpg";
+import AddImage2 from "../../assets/img/bus.jpg";
 
 export default function Portfolio() {
   return (
@@ -197,11 +197,11 @@ const ImgWrapper = styled.div`
     width: 100%;
     height: auto;
   }
-  @media (max-width: 400px) {
+  @media (max-width: 400px) { 
     padding: 0;
      img {
-    width: 20%;
-    height: auto;
+     width:345px !important;
+  height:330px !important;
   }
   }
 `;

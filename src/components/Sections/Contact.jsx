@@ -103,6 +103,8 @@ const Form = styled.form`
 
   @media (max-width: 860px) {
     padding: 30px 0;
+    width:80% !important;
+    margin:auto;
   }
 `;
 
@@ -126,7 +128,11 @@ const ButtonInput = styled.input`
 
   @media (max-width: 991px) {
     margin: 0 auto;
+
   }
+    @media (max-width: 400px) { 
+        width:50% !important;
+     }
 `;
 
 const ContactImgBox = styled.div`
@@ -139,6 +145,13 @@ const ContactImgBox = styled.div`
     width: 100%;
     border-radius: 8px;
     object-fit: cover;
+  }
+     @media (max-width: 400px) { 
+  
+     img {
+     width:100px !important;
+     height:100px !important;
+  }
   }
 `;
 const Radius9Image = styled.img`

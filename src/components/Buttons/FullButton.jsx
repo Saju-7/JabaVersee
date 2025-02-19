@@ -20,10 +20,16 @@ const Wrapper = styled.button`
   padding: 15px;
   outline: none;
   color: ${(props) => (props.border ? "#707070" : "#fff")};
+  
   :hover {
     background-color: ${(props) => (props.border ? "transparent" : "#580cd2")};
     border: 1px solid #7620ff;
     color: ${(props) => (props.border ? "#7620ff" : "#fff")};
   }
+
+  @media (max-width: 768px) {  /* Adjust the breakpoint to your need */
+    width: 80%;
+  }
 `;
+
 
