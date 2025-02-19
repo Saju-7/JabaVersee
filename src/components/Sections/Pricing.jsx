@@ -21,7 +21,7 @@ export default function About() {
           {/* Image and Text Section */}
           <ContentWrapper className="flexSpaceCenter">
             <ImageSection>
-              <img src={TeamImage} alt="Jaba Verse Team"  style={{ width: '350px', height: '520px', zIndex: 9 }}  />
+              <img src={TeamImage} alt="Jaba Verse Team"  style={{ width: '300px', height: '500px', zIndex: 9 }}  />
             </ImageSection>
             <TextSection>
               <h3 className="font24 extraBold">Our Mission</h3>
